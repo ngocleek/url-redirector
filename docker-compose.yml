@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  web:
+    build: .
+    ports:
+      - 34401:34401
+    volumes:
+      - .:/app
