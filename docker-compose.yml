@@ -6,3 +6,4 @@ services:
       - 34401:34401
     volumes:
       - .:/app
+      - /app/node_modules
